@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Log | ngx_waf</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/ADD-SP/ngx_waf@master/assets/logo.png">
+    <meta name="description" content="A web application firewall module for nginx without complex configuration.'">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noodp, notranslate, max-video-preview:-1">
+    
+    <link rel="preload" href="/ngx_waf-docs/assets/css/0.styles.f8a1c8e0.css" as="style"><link rel="preload" href="/ngx_waf-docs/assets/js/app.177bd02a.js" as="script"><link rel="preload" href="/ngx_waf-docs/assets/js/2.3eace1a3.js" as="script"><link rel="preload" href="/ngx_waf-docs/assets/js/10.cb0f8165.js" as="script"><link rel="prefetch" href="/ngx_waf-docs/assets/js/11.eb40802e.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/12.e9930820.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/13.b5575aed.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/14.879c2b30.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/15.2ae071a7.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/16.9c80ca50.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/17.f6b14034.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/18.32bdb8a0.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/19.feb8ce97.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/20.560034d4.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/21.b472e623.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/22.d243cdfa.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/23.b3482023.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/24.35119bd9.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/25.25e8f4e0.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/26.7610c449.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/27.9699c2ce.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/28.5c4b1b9c.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/29.c5f248e9.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/3.352f42de.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/30.3a6312d2.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/31.fdf56315.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/32.b7efd851.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/33.d309d8a9.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/34.4cd1e553.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/35.fd2dd27a.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/36.7fa8c651.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/37.4f331c9f.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/38.ecd83f3f.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/39.46575961.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/4.17fcfeb4.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/40.7b268d7d.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/41.cb5ef6b1.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/42.cdbd6a51.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/43.d6cb2652.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/44.3e5b2b74.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/45.4e0c0401.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/46.239210c1.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/47.fd04266f.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/48.7d4d6847.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/49.7a1634df.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/5.a2133778.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/50.58580001.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/51.bd3f391d.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/52.06f4fb03.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/53.b68f7fb5.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/54.fb02468e.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/55.d76c7ffd.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/56.03676510.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/57.bc5e53be.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/58.4f599a9d.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/59.a03bf859.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/6.53c69475.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/60.3a355eaa.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/61.017e8651.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/62.d3ad9d5c.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/63.cf072d3d.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/64.b819e50c.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/65.8e16418d.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/66.45abcf37.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/7.075dffc9.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/8.d5a2590d.js"><link rel="prefetch" href="/ngx_waf-docs/assets/js/9.df533c30.js">
+    <link rel="stylesheet" href="/ngx_waf-docs/assets/css/0.styles.f8a1c8e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/ngx_waf-docs/" class="home-link router-link-active"><!----> <span class="site-name">ngx_waf</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/ngx_waf-docs/practice/overview.html" class="nav-link">
+  Best Practices
+</a></div><div class="nav-item"><a href="/ngx_waf-docs/advance/upgrade.html" class="nav-link">
+  Cross-version Upgrades
+</a></div><div class="nav-item"><a href="/ngx_waf-docs/changes/overview.html" class="nav-link">
+  CHANGES
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ngx_waf-docs/advance/log.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/ngx_waf-docs/zh-cn/advance/log.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/ADD-SP/ngx_waf/" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/ngx_waf-docs/practice/overview.html" class="nav-link">
+  Best Practices
+</a></div><div class="nav-item"><a href="/ngx_waf-docs/advance/upgrade.html" class="nav-link">
+  Cross-version Upgrades
+</a></div><div class="nav-item"><a href="/ngx_waf-docs/changes/overview.html" class="nav-link">
+  CHANGES
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ngx_waf-docs/advance/log.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/ngx_waf-docs/zh-cn/advance/log.html" class="nav-link">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/ADD-SP/ngx_waf/" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/ngx_waf-docs/guide/overview.html" class="sidebar-heading clickable"><span>Quick Start</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/ngx_waf-docs/advance/directive.html" class="sidebar-heading clickable open"><span>Advanced Guide</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/ngx_waf-docs/advance/directive.html" class="sidebar-link">Directive</a></li><li><a href="/ngx_waf-docs/advance/rule.html" class="sidebar-link">Rule Description</a></li><li><a href="/ngx_waf-docs/advance/priority.html" class="sidebar-link">Rule Priority</a></li><li><a href="/ngx_waf-docs/advance/variable.html" class="sidebar-link">Built-in Variables</a></li><li><a href="/ngx_waf-docs/advance/log.html" aria-current="page" class="active sidebar-link">Log</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ngx_waf-docs/advance/log.html#blocking-log" class="sidebar-link">Blocking Log</a></li><li class="sidebar-sub-header"><a href="/ngx_waf-docs/advance/log.html#debugging-log" class="sidebar-link">Debugging Log</a></li><li class="sidebar-sub-header"><a href="/ngx_waf-docs/advance/log.html#customised-log-format" class="sidebar-link">Customised Log Format</a></li></ul></li><li><a href="/ngx_waf-docs/advance/upgrade.html" class="sidebar-link">Cross-version Upgrades</a></li><li><a href="/ngx_waf-docs/advance/issue.html" class="sidebar-link">Known Issues</a></li></ul></section></li><li><a href="/ngx_waf-docs/roadmap/overview.html" class="sidebar-link">Roadmap (Advice Needed)</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="log"><a href="#log" class="header-anchor">#</a> Log</h1> <h2 id="blocking-log"><a href="#blocking-log" class="header-anchor">#</a> Blocking Log</h2> <p>The blocking log is stored in <code>error.log</code>. The log level of the blocking log is <code>ALERT</code>.
+The format is <code>ngx_waf: [rule type][specific rule triggered]</code>.</p> <p>You can use the following command to quickly view the blocking log.</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">cat</span> /path/to/error.log <span class="token operator">|</span> <span class="token function">grep</span> ngx_waf:
+</code></pre></div><p>Here are two examples.</p> <div class="language- extra-class"><pre class="language-text"><code>2020/01/20 22:56:30 [alert] 6666#0: *30 ngx_waf: [BLACK-URL][(?i)(?:/\.env$)], client: 192.168.1.1, server: example.com, request: &quot;GET /v1/.env HTTP/1.1&quot;, host: &quot;example.com&quot;, referrer: &quot;http:/example.com/v1/.env&quot;
+
+2020/01/20 22:58:40 [alert] 6667#0: *11 ngx_waf: [BLACK-POST][(?i)(?:select.+(?:from|limit))], client: 192.168.1.1, server: example.com, request: &quot;POST /xmlrpc.php HTTP/1.1&quot;, host: &quot;example.com&quot;, referrer: &quot;https://example.com/&quot;
+</code></pre></div><h2 id="debugging-log"><a href="#debugging-log" class="header-anchor">#</a> Debugging Log</h2> <p>When you adjust the error log level to <code>debug</code> in the nginx configuration file,
+the debug log will be output in <code>error.log</code> for troubleshooting purposes.
+for troubleshooting purposes. The format is <code>ngx_waf_debug: debug information</code>.</p> <p>You can use the following command to quickly view the debug log.</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">cat</span> /path/to/error.log <span class="token operator">|</span> <span class="token function">grep</span> ngx_waf_debug:
+</code></pre></div><p>Below is a typical modulation log that illustrates the flow of a CC defense detection.</p> <div class="language- extra-class"><pre class="language-text"><code>2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: Start the CC inspection process.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: The module context has been obtained.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: The configuration of the module has been obtained.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: Detection has begun.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: Shared memory is locked.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: Shared memory is unlocked.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: Detection is over.
+2021/02/21 20:35:33 [debug] 6666#0: *1 ngx_waf_debug: The CC detection process is fully completed.
+</code></pre></div><h2 id="customised-log-format"><a href="#customised-log-format" class="header-anchor">#</a> Customised Log Format</h2> <p>nginx allows custom log formats, and a server block can write to multiple log files at the same time,
+giving us the opportunity to customise our log formats.
+This module provides some <a href="/ngx_waf-docs/advance/variable.html">built-in Variables</a>
+that can be used to customise the blocking log with a little effort.</p> <p>Here is an example.</p> <div class="language-nginx extra-class"><pre class="language-nginx"><code>...
+
+<span class="token directive"><span class="token keyword">http</span></span> <span class="token punctuation">{</span>
+    ...
+
+    <span class="token directive"><span class="token keyword">log_format</span>  main    <span class="token string">'<span class="token variable">$remote_addr</span> - <span class="token variable">$remote_user</span> [<span class="token variable">$time_local]</span> &quot;<span class="token variable">$request</span>&quot; '</span>
+                        <span class="token string">'<span class="token variable">$status</span> <span class="token variable">$body_bytes_sent</span> &quot;<span class="token variable">$http_referer</span>&quot; '</span>
+                        <span class="token string">'&quot;<span class="token variable">$http_user_agent</span>&quot; &quot;<span class="token variable">$http_x_forwarded_for</span>&quot;'</span></span><span class="token punctuation">;</span>
+
+    <span class="token directive"><span class="token keyword">log_format</span> yaml     <span class="token string">'- remote_addr: &quot;<span class="token variable">$remote_addr</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  remote_user: &quot;<span class="token variable">$remote_user</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  time_local: &quot;<span class="token variable">$time_local</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  request: &quot;<span class="token variable">$request</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  status: &quot;<span class="token variable">$status</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  body_bytes_sent: &quot;<span class="token variable">$body_bytes_sent</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  http_referer: &quot;<span class="token variable">$http_referer</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  http_user_agent: &quot;<span class="token variable">$http_user_agent</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  http_x_forwarded_for: &quot;<span class="token variable">$http_x_forwarded_for</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  waf_blocked: <span class="token variable">$waf_blocked</span><span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  waf_spend: <span class="token variable">$waf_spend</span><span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  waf_rule_type: &quot;<span class="token variable">$waf_rule_type</span>&quot;<span class="token escape entity">\n</span>'</span>
+                        <span class="token string">'  waf_rule_details: &quot;<span class="token variable">$waf_rule_details</span>&quot;<span class="token escape entity">\n</span>'</span></span><span class="token punctuation">;</span>
+
+
+    <span class="token directive"><span class="token keyword">server</span></span> <span class="token punctuation">{</span>
+        ...
+
+        <span class="token directive"><span class="token keyword">access_log</span>  logs/access.log  main</span><span class="token punctuation">;</span>
+        <span class="token directive"><span class="token keyword">access_log</span>  logs/access.yml  yaml   if=<span class="token variable">$waf_log</span></span><span class="token punctuation">;</span>
+        <span class="token directive"><span class="token keyword">access_log</span>  logs/waf.yml     yaml   if=<span class="token variable">$waf_blocking_log</span></span><span class="token punctuation">;</span>
+
+        ...
+    <span class="token punctuation">}</span>
+
+    ...
+<span class="token punctuation">}</span>
+
+...
+</code></pre></div><p>The above configuration stores the normal log format in <code>logs/access.log</code>,
+while the yaml format logs are stored in <code>logs/access.yml</code>.
+It is worth noting that yaml format logs use the three built-in variables provided by the module.
+You can easily read `logs/access.The above configuration will have the following effect.</p> <ul><li>normal access logs are written to <code>logs/access.log</code>.</li> <li>YAML-formatted access logs are written to <code>logs/access.yml</code>.</li> <li>YAML-formatted intercept logs are written to <code>logs/waf.yml</code>.</li></ul> <div class="custom-block tip"><p class="custom-block-title">Log analysis</p> <p>You can customize the log format, and then programmatically analyze it and make statistical graphs.</p></div> <div class="custom-block tip"><p class="custom-block-title">ABOUT YAML FORMAT</p> <p>YAML is a highly readable data serialisation format that is very easy to learn.
+As long as you can read JSON, learning YAML will be a snap.
+You can search for a description of the YAML format yourself.</p></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/ADD-SP/ngx_waf-docs/edit/master/docs/advance/log.md" target="_blank" rel="noopener noreferrer">Help us improve this page!</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">9/24/2021, 2:52:41 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/ngx_waf-docs/advance/variable.html" class="prev">
+        Built-in Variables
+      </a></span> <span class="next"><a href="/ngx_waf-docs/advance/upgrade.html">
+        Cross-version Upgrades
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/ngx_waf-docs/assets/js/app.177bd02a.js" defer></script><script src="/ngx_waf-docs/assets/js/2.3eace1a3.js" defer></script><script src="/ngx_waf-docs/assets/js/10.cb0f8165.js" defer></script>
+  </body>
+</html>
